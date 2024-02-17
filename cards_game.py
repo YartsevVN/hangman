@@ -70,7 +70,7 @@ class Game():
         cards = self.deck.cards
         print('Поехали!')
         while len(cards) >= 2:
-            mes = "Нажмите Х для выхода из игры.\nНажмите любую другую клавишу для начала игры: "
+            mes = "Нажмите Х для выхода из игры.\nНажмите любую другую клавишу для начала игры:"
             response = input(mes)
             if response == 'Х':
                 break
